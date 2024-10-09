@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cruzeiro</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="cab">
+                <p>BRASIL 011 - 3878-8135</p>
+                <div id="linha"></div>
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">ENCONTRE SEU CRUZEIRO</a></li>
+                        <li><a href="#">OFERTAS</a></li>
+                        <li><a href="#">NOSSOS NAVIOS</a></li>
+                        <li><a href="#">DESTIDOS</a></li>
+                        <li><a href="#">GERENCIAR</a></li>
+                        <li><a href="#">MEU CRUZEIRO</a></li>
+                        <li><a href="#">LOGIN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="corpo">
+            <img id="corpoNavio" src="img/bg-main-1.png" alt="navio">
+            <p>MENU DE PROMOÇÕES</p>
+            <h2>AMÉRICA DO SUL</h2>
+            <div id="caixaCompre">
+                <input id="compreAgora" type="submit" value="COMPRE AGORA">
+            </div>
+        </div>
+
+        <section id="tickets">
+            <p>Reserva Agora</p><hr>
+
+            <form action="#">
+                <div id="camada1">
+                    <div id="um">
+                        <label for="destino">Destino</label>
+                        <select name="destino" id="destinoSelect">
+                            <option value="" disabled selected>Selecionar...</option>
+                        </select>
+                    </div>
+    
+                    <div id="dois">
+                        <label for="ponto">Ponto de Embarque</label>
+                        <select name="ponto" id="pontoSelect">
+                            <option value="" disabled selected>Selecionar...</option>
+                        </select>
+                    </div>
+    
+                    <div id="tres">
+                        <label for="data">Data de Embarque</label>
+                        <input id="data" type="date">
+                    </div>
+                </div>
+
+                <div id="quatro">
+                    <label for="passageiros">Passageiros</label>
+                    <select name="passageiros" id="passageirosSelect">
+                        <option value="" disabled selected>Selecionar...</option>
+                    </select>
+
+                    <input id="enviar" type="submit" value="BUSCAR">
+                </div>
+
+                
+            </form>
+        </section>
+
+        <section id="galeria">
+            <h2>NOSSOS DESTAQUES</h2>
+
+            <div id="galeriaDivs">
+                <div id="foto1">
+
+                </div>
+
+                <div id="foto2">
+                    
+                </div>
+
+                <div id="foto3">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

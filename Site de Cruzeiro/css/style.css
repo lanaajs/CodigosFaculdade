@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: #1A1C39;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 108px;
+    width: 100%;
+    flex-shrink: 0;
+    padding-top: 60px;
+}
+
+header p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    position: absolute;
+    margin-left: 90%;
+}
+
+header #linha {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50);
+    flex-shrink: 0;
+    width: 1160px;
+    position: absolute;
+
+    margin-left: 13%;
+}
+
+header #cab {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-style: none;
+    text-decoration: none;
+
+    margin-left: 60px;
+}
+
+header nav ul li a:hover {
+    padding-bottom: 4px;
+    height: 30px;
+    border-bottom: 3px solid #FF6900;
+    width: 147px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+header #menu {
+    margin-top: 20px
+}
+
+header img {
+    width: 132.84px;
+    height: 47.689px;
+    flex-shrink: 0;
+    margin-left: 2%;
+}
+
+#corpoNavio {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+#corpo p {
+    position: absolute;
+    top: 230px;
+    left: 68%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#corpo h2 {
+    position: absolute;
+    top: 265px;
+    left: 67.5%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#corpo #caixaCompre #compreAgora {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    width: 190px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FF6900;
+    position: absolute;
+    top: 350px;
+    left: 68%;
+    border: none;
+}
+
+#tickets {
+    position: absolute;
+    width: 956px;
+    height: 290px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 2px -12px 6px 6px rgba(0, 0, 0, 0.26);
+    top: 610px;
+    left: 162px;
+}
+
+#tickets p {
+    color: #1A1C39;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+hr {
+    border-color: #aaa;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#tickets label {
+    color: var(--gray-1, #4E4E4E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+#tickets select {
+    display: inline-flex;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 51px;
+    flex-shrink: 0;
+    border: 0.5px solid #B9B9B9;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05) inset;
+    width: 250px;
+    margin-bottom: 20px;
+    color: var(--gray-3, #A4A4A4);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+}
+
+#tickets #data {
+    height: 40px;
+    justify-content: center;
+    gap: 37px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 0.5px solid #B9B9B9;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05) inset;
+    width: 250px;
+    margin-bottom: 20px;
+    color: var(--gray-3, #A4A4A4);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 100% */
+}
+
+#camada1 {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+#tickets #camada1 #dois {
+    margin-left: 6%;
+}
+
+#tickets #quatro {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#tickets #enviar {
+    width: 190px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #1A1C39;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    position: absolute;
+    margin-left: 45%;
+    margin-bottom: 30%;
+    border: none;
+}
+
+#galeria h2 {
+    margin-top: 16%;
+    margin-left: 162px;
+    color: #1A1C39;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
